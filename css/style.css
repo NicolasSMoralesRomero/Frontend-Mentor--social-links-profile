@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+html {
+    background-color: hsl(0, 0%, 30%);   
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 3%;
+    width: 40%;
+    height: 80%;
+    padding: 5px;
+}
+
+.tarjetaPrincipal{
+    margin: 5px;
+}
+
+img {
+    border-radius: 50%;
+    height: 25vh;
+    padding: 4vh;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+        color: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+        color: hsl(75, 94%, 57%);
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+        color: hsl(0, 0%, 70%);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    padding-right: 25px;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(240, 3%, 34%);
+    width: 300px;
+    height: 35px;
+}
+
+.enlaces{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.attribution {
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:900px){
+
+    body{
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .tarjetaPrincipal{
+        max-width: 90%;
+    }
+
+    button{
+        max-width: 85%;
+    }
+
+    ul{
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+        padding-right: 25px;
+    }
+
+    img{
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 90%;
+    }
+
+    h2{
+        font-size: 90%;
+    }
+
+    h3{
+        font-size: 90%;
+    }
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+
