@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 html {
-    background-color: hsl(0, 0%, 30%);   
+    background-color: hsl(0, 0%, 30%);
     display: flex;
     justify-content: center;
 }
@@ -18,7 +18,7 @@ body {
     padding: 5px;
 }
 
-.tarjetaPrincipal{
+.tarjetaPrincipal {
     margin: 5px;
 }
 
@@ -35,7 +35,7 @@ h1 {
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-        color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
 }
 
 h2 {
@@ -45,7 +45,7 @@ h2 {
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-        color: hsl(75, 94%, 57%);
+    color: hsl(75, 94%, 57%);
 }
 
 h3 {
@@ -55,29 +55,33 @@ h3 {
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-        color: hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 70%);
 }
 
-ul{
+.botones {
     display: flex;
     flex-direction: column;
-    list-style: none;
     justify-content: center;
     align-content: center;
-    gap: 35px;
+    align-items: center;
+    gap: 25px;
+
 }
 
-a{
+a {
     text-decoration: none;
-    
+
 }
 
-.enlaces{
+.enlaces {
+    Display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     color: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     background-color: hsl(240, 3%, 34%);
     cursor: pointer;
     width: 27vw;
@@ -95,50 +99,47 @@ a{
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width:900px){
+@media (max-width:600px) {
 
-    body{
+    body {
         justify-content: center;
         align-items: baseline;
         width: 80%;
     }
 
-    .tarjetaPrincipal{
-        max-width: 99%;
+    .tarjetaPrincipal {
+        max-width: 95%;
     }
 
-    .enlaces{
-        width: 85%;
+    .enlaces {
+        width: 80%;
         font-size: small;
-    } 
+    }
 
-    ul{
+    .botones {
         gap: 20px;
         justify-content: center;
         align-content: center;
-        padding-right: 20px;
-    } 
+    }
 
-    img{
+    img {
         max-width: 60%;
     }
 
-    h1{
+    h1 {
         font-size: 90%;
     }
 
-    h2{
+    h2 {
         font-size: 90%;
     }
 
-    h3{
+    h3 {
         font-size: 90%;
     }
 }
 
-.enlaces:hover{
+.enlaces:hover {
     background-color: hsl(75, 94%, 57%);
     color: black;
 }
-
-
